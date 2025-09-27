@@ -1,6 +1,6 @@
 # Chat Application on Kubernetes – 3‑Tier Architecture
 
-                                                            ![alt text](image.png)
+![alt text](image.png)
 
 This repository documents how to deploy a simple full‑stack chat application on Kubernetes using a **three‑tier architecture**.  The tiers are:
 
@@ -365,11 +365,11 @@ Once all pods are running and services are ready, you can access the chat applic
 * **Frontend:** http://localhost
 * **Backend API:** http://localhost:5001
 
-                                                    ![alt text](image-1.png)
+![alt text](image-1.png)
 
-                                                    ![alt text](image-2.png)
+![alt text](image-2.png)
 
-                                                    ![alt text](image-3.png)
+![alt text](image-3.png)
 
 If using the ingress controller, navigate to `http://localhost/` (or whichever host you configured) to see the frontend.  The backend API will be proxied through the same ingress.
 
